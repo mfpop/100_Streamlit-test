@@ -14,7 +14,7 @@ def main():
         tw.button("About", classes="bg-green-500 text-white w-full py-2 my-2")
         tw.button("Contact", classes="bg-red-500 text-white w-full py-2 my-2")
 
-    tw.write("Grid Container", classes="text-blue-500 pb-4")
+    tw.write("Femsa-Dashboard", classes="text-blue-500 pb-4")
 
     with tw.container(classes="grid grid-cols-4"):
         for idx in range(1, 25):
