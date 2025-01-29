@@ -9,7 +9,7 @@ def main():
     tw.initialize_tailwind()
 
     with st.sidebar:
-        tw.write("Sidebar Title", classes="text-2xl font-bold text-blue-500")
+        tw.write("Vector LMD", classes="text-2xl font-bold text-blue-500")
         tw.button("Home", classes="bg-gray-500 text-white w-full py-2 my-2")
         tw.button("About", classes="bg-yellow-500 text-white w-full py-2 my-2")
         tw.button("Contact", classes="bg-green-500 text-white w-full py-2 my-2")
