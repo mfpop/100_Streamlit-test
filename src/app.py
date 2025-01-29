@@ -11,8 +11,9 @@ def main():
     with st.sidebar:
         tw.write("Vector LMD", classes="text-2xl font-bold text-red-500")
         tw.button("Home", classes="bg-gray-500 text-white w-full py-2 my-2")
-        tw.button("About", classes="bg-yellow-500 text-white w-full py-2 my-2")
-        tw.button("Contact", classes="bg-green-500 text-white w-full py-2 my-2")
+        tw.button("Production", classes="bg-yellow-500 text-white w-full py-2 my-2")
+        tw.button("Dashboards", classes="bg-green-500 text-white w-full py-2 my-2")
+        tw.button("Contact", classes="bg-gray-200 text-white w-full py-2 my-2")
 
     tw.write("Femsa-Dashboard", classes="text-blue-500 pb-4")
 
