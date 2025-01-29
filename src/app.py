@@ -1,7 +1,7 @@
 import streamlit as st
 import st_tailwind as tw
 
-st.set_page_config("Streamlit Tailwind Examples")
+st.set_page_config("Vector LMD")
 tw.initialize_tailwind()
 
 
